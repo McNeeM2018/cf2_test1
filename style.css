@@ -14,13 +14,34 @@ height:50vh;
 }
 
 .evilSide{
+background-color:red;
+text-color:black;
 height:50vh;
+
+}
+
+.halfscreen{
 
 }
 
 .robotSide{
+background-color:black;
+text-color:red;
 height:50vh;
 
 }
 
+.networkingSide{
+background-color:green;
 
+}
+
+.encryptionSide{
+background-color:blue;
+
+}
+
+.xmlSide{
+background-color:yellow;
+
+}

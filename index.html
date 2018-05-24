@@ -8,7 +8,7 @@
 
 <!-- Problem 1: 20 points
 Fix this element so the existing css will show in html-->
-  </link rel="stylesheet" href=" Style.css">
+  <link rel="stylesheet"  href="style.css"><link>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -20,13 +20,13 @@ Fix this element so the existing css will show in html-->
 <div class="row content text-center center-block">
 <!--Problem 2: 20 points
 change this bootstrap cell to display pages as half and half-->
-	<div class="col-sm- evilSide">
+	<div class="col-sm-6 evilSide">
 	 <h1>Evil Genius</h1>
-	 
+	    <img class="img-fluid" src="evil.png" alt="">
 	</div>
-	<div class="col-sm- robotSide">
+	<div class="col-sm-6 robotSide">
 	 <h1>Robot</h1>
-	
+	  <img class="img-fluid" src="robot.png" alt="">
 	</div>
 </div>
 <!--Problem 3: 10 points each:
@@ -41,6 +41,15 @@ add a new row using a div tag.
 using div tags inside the row, create a three columns of equal size across the whole page(halfway down, and one third of width each). Each column should be set to any color other than red or black using our style.css file
 Using a paragraph tag, write something you remember about networking on the left, something you remember about encryption in the middle, and something you remember about xml in the right
  -->
+<div class="col-sm-4 networkingSide">
+ <p>Networking is not fun</p>
+</div>
+<div class="col-sm-4 encryptionSide">
+ <p>Encryption is what allows you to protect your information by scrambling it through algorithims</p>
+</div>
+<div class="col-sm-4 xmlSide">
+ <p>Xml is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.</p>
+</div>
 
 
 <!-- Extra credit: In centered a paragraph tag, decode this message and display it at the bottom of the website
